@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <main>
+        <section id="playerInformation">
+            <h1>Let's playe Tic-Tac-Toe</h1>
+            <hr>
+            <label for="playerOne">X</label>
+            <input type="text" name="playerOne" id="playerOne" placeholder="Player One">
+            <label for="playerTwo">O</label>
+            <input type="text" name="playerTwo" id="playerTwo" placeholder="Player Two">
+            <button id="start">Start / Restart</button>
+            <h2>Player <span></span>, It's your turn!</h2>
+        </section>
+        <section id="gameBoard">
+            <span class="cursor-pointer" data-region="0.0"></span>
+            <span class="cursor-pointer" data-region="0.1"></span>
+            <span class="cursor-pointer" data-region="2.2"></span>
+            <span class="cursor-pointer" data-region="1.0"></span>
+            <span class="cursor-pointer" data-region="1.1"></span>
+            <span class="cursor-pointer" data-region="1.2"></span>
+            <span class="cursor-pointer" data-region="2.0"></span>
+            <span class="cursor-pointer" data-region="2.1"></span>
+            <span class="cursor-pointer" data-region="2.2"></span>
+        </section>
+        <section id="playerWin">
+        </section>
+    </main>
+</body>
+</html>
