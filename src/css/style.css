@@ -19,7 +19,7 @@ main{
     max-width: 19rem;
 }
 #gameBoard span{
-    background-color: #f7f5f2;
+    background-color: white;
     display: grid;
     place-content: center;
     font-size: 5rem;
