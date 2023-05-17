@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
     <title>Tic Tac Toe</title>
 </head>
 <body>
@@ -15,17 +16,18 @@
             <input type="text" name="playerOne" id="playerOne" placeholder="Player One">
             <label for="playerTwo">O</label>
             <input type="text" name="playerTwo" id="playerTwo" placeholder="Player Two">
+            <br>
             <button id="start">Start / Restart</button>
             <h2>Player <span></span>, It's your turn!</h2>
         </section>
         <section id="gameBoard">
-            <span class="cursor-pointer" data-region="0.0"></span>
+            <span class="cursor-pointer" data-region="0.0">X</span>
             <span class="cursor-pointer" data-region="0.1"></span>
             <span class="cursor-pointer" data-region="2.2"></span>
             <span class="cursor-pointer" data-region="1.0"></span>
             <span class="cursor-pointer" data-region="1.1"></span>
             <span class="cursor-pointer" data-region="1.2"></span>
-            <span class="cursor-pointer" data-region="2.0"></span>
+            <span class="cursor-pointer" data-region="2.0">O</span>
             <span class="cursor-pointer" data-region="2.1"></span>
             <span class="cursor-pointer" data-region="2.2"></span>
         </section>

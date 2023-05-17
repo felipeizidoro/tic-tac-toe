@@ -1,0 +1,26 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+main{
+    text-align: center;
+}
+#start{
+    margin-top: 2rem;
+}
+#gameBoard{
+    background-color: #494744;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 6rem 6rem 6rem;
+    grid-template-rows: 6rem 6rem 6rem ;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    max-width: 19rem;
+}
+#gameBoard span{
+    background-color: #f7f5f2;
+    display: grid;
+    place-content: center;
+    font-size: 5rem;
+}
