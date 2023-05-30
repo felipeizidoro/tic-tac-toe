@@ -25,3 +25,6 @@ main{
     place-content: center;
     font-size: 5rem;
 }
+.win{
+    color: rgb(2, 92, 2);
+}
