@@ -1,6 +1,15 @@
+:root{
+    --font-one: 'Cherry Bomb One', cursive;
+    --font-two: 'Nunito', sans-serif;
+}
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-two),Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
     margin: auto;
+}
+.title{
+    font-family: var(--font-one);
+    font-size: 2.75rem;
 }
 main{
     text-align: center;

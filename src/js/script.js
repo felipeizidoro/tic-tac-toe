@@ -11,7 +11,7 @@ function initializeGame() {
     document.getElementById('playerWin').innerHTML = '';
     virtualBoard = [['', '', ''], ['', '', ''], ['', '', '']];
     turnPlayer = 'playerOne';
-    document.querySelector('h2').innerHTML = "Player <span id= 'turnPlayer'></span>, It's your turn!";
+    document.getElementById('subTitle').innerHTML = "<span id= 'turnPlayer'></span>, It's your turn!";
     updateTurnPlayer();
     boardRegions.forEach(function (element) {
         element.classList.remove('win');
@@ -78,7 +78,7 @@ function handleWin(regions) {
         document.querySelector('[data-region="' + region + '"]').classList.add('win');
     });
     const playerName = document.getElementById(turnPlayer).value;
-     document.getElementById('playerWin').innerHTML = `<h2> ${playerName} YOU WIN!`;
+     document.getElementById('playerWin').innerHTML = `<h1> ${playerName} YOU WIN!</h1>`;
 };
 
 document.getElementById('start').addEventListener('click', initializeGame);
